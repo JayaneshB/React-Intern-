@@ -23,7 +23,7 @@ function App() {
   </Form.Group>
 
   <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Label>Country</Form.Label>
+    <Form.Label>Country</Form.Label><br/>
     <Form.Control type="country" align="center" placeholder="Enter Country" />
     <Form.Text className="text-muted">
     </Form.Text>
@@ -41,9 +41,7 @@ function App() {
     <Form.Control type="text" align="center" placeholder="Enter City Name" />
   </Form.Group><br/>
 
-  <Button variant="success" type="submit" class="btn btn-success">
-    Submit
-  </Button>
+  <Button type="button" class="btn btn-success">Submit</Button>
 </Form>
 <br/>
 
